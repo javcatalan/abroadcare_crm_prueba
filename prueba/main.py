@@ -15,7 +15,7 @@
 
 from fastapi import FastAPI
 from src.routes.user import user
-from fastapi.middleware import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
     title="Rest API with FastAPI and Mongodb",

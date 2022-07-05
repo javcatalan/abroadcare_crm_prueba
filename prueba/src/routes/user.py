@@ -1,6 +1,6 @@
 
 from fastapi import APIRouter, Response, status
-from config.db import conn
+from src.config.db import conn
 from src.schemas.user import userEntity, usersEntity, appicationsEntity, questionsEntity, appicationEntity
 from src.models.user import survey, applications,questions
 from passlib.hash import sha256_crypt
